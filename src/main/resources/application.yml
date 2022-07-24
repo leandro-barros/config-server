@@ -8,6 +8,6 @@ spring:
         git:
           uri: https://bitbucket.org/leandrobarros_dev/microservice-repo
           search-paths: notification
-          username: leobarros.evangelista@gmail.com
-          password: springboot
+          username: ${user}
+          password: ${password}
 
